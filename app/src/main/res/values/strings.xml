@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BearAdvice</string>
+    <string name="welcome_text">Добро пожаловать! Выбери то, чего тебе не хватает!</string>
+    <string name="drinks">Напитки</string>
+    <string name="foot">Еда</string>
+    <string name="what_is_it_">Что это?</string>
+    <string name="Stories_about">Истории...</string>
+</resources>
