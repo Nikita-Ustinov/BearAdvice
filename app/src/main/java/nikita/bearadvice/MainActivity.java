@@ -1,26 +1,11 @@
 package nikita.bearadvice;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 import java.io.UnsupportedEncodingException;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Set;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,9 +14,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Item.deserialization(this);
-        if(Item.Drinks.isEmpty()){
+        if(Drink.ListItems.isEmpty()){
             try {
-                Item.createDB(this);
+                Item.createDB(this); //исправить создание датабазы
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
             }

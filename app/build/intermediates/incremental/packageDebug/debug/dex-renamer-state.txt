@@ -1,0 +1,4 @@
+#Sat Mar 31 20:59:00 CEST 2018
+base.0=C\:\\Users\\Comp\\Documents\\AndroidStudioProjects\\BearAdvice\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

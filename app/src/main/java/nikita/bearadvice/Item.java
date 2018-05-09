@@ -14,66 +14,64 @@ import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.UnsupportedEncodingException;
+import java.lang.reflect.Array;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.Set;
+
+import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
 
 
 public class Item {
     String Name;
-    Image Icon;
     String Type;
+    String[] ConsumeWith;
     String Definice;
     String[] Stories;
-    String[] ConsumeWith;
-    static LinkedList<Item> Drinks = new LinkedList<>();
-    static LinkedList<Item> Food = new LinkedList<>();
+    Image Icon;
+    String Picture;
+    int ID;
+    static int MaxID;
 
-    public  Item(String name, String type, String definice) {
-        this.Name = name;
-        this.Type = type;
-        this.Definice = definice;
-        if (type == "drinks") {
-            Drinks.add(this);
-        }
-        else {
-            Food.add(this);
-        }
+//    public  Item(String name, String type, String definice) {
+//        this.Name = name;
+//        this.Type = type;
+//        this.Definice = definice;
+//        ListItems.add(this);
+//    }
+//
+//
+//    public  Item(String name, String type, String definice, String[] consumeWith, String[] stories) {
+//        this.Name = name;
+//        this.Type = type;
+//        this.Definice = definice;
+//        this.ConsumeWith = new String[consumeWith.length];
+//        this.ConsumeWith = consumeWith;
+//        this.Stories = new String[stories.length];
+//        this.Stories = stories;
+//        ListItems.add(this);
+//    }
+//
+//    public  Item(String name, String type, String definice, String[] consumeWith, String[] stories, String picture) {
+//        this.Name = name;
+//        this.Type = type;
+//        this.Definice = definice;
+//        this.ConsumeWith = new String[consumeWith.length];
+//        this.ConsumeWith = consumeWith;
+//        this.Stories = new String[stories.length];
+//        this.Stories = stories;
+//        this.Picture = picture;
+//        ListItems.add(this);
+//    }
+
+    public Item() {
     }
 
-    public  Item(String name, String type, Image img) {
-        this.Name = name;
-        this.Type = type;
-        this.Icon = img;
-        if (type == "drinks") {
-            Drinks.add(this);
-        }
-        else {
-            Food.add(this);
-        }
-    }
 
-    public  Item(String name, String type, String definice, String[] consumeWith, String[] stories) {
-        this.Name = name;
-        this.Type = type;
-        this.Definice = definice;
-        this.ConsumeWith = new String[consumeWith.length];
-        this.ConsumeWith = consumeWith;
-        this.Stories = new String[stories.length];
-        this.Stories = stories;
-        Drinks.add(this);
-    }
-
-    public Image getIcon() {
-        return Icon;
-    }
-
-    public static int getCountDrinks() {
-        return Drinks.size();
-    }
-
-    public static int getCountFoods() {
-        return Food.size();
-    }
+//    public static int getCountList() {
+//        return /ListItems.size();
+//    }
 
     public String getName() {
         return Name;
@@ -88,28 +86,25 @@ public class Item {
     }
 
 
-    public static String[] getDrinksNames() {
-        String[] output = new String[Drinks.size()];
-        for(int i=0; i<Drinks.size(); i++) {
-            output[i] = Drinks.get(i).Name;
-        }
-        return output;
-    }
+//
 
-    public static String[] getFoodNames() {
-        String[] output = new String[Food.size()];
-        for(int i = 0; i< Food.size(); i++) {
-            output[i] = Food.get(i).Name;
-        }
-        return output;
-    }
 
     public static void createDB(Activity activity) throws UnsupportedEncodingException {
+        createDrinkDB(activity);
+        createFoodDB(activity);
+
+        serializace(activity);
+    }
+
+    static void createDrinkDB(Activity activity) throws UnsupportedEncodingException {
         HashMap<String, String> info = getInfo(activity);
         HashMap<String, String[]> consumeWith = getConsumeWith(activity);
         HashMap<String, String[]> stories = getStories(activity);
+        HashMap<String, String> pictures = getPictures(activity);
 
-        String[] keys = (String[]) info.keySet().toArray();
+        Set keysSet = info.keySet();
+        String pictureName;
+        String[] keys = (String[])keysSet.toArray(new String[keysSet.size()]);
         String definice;
         String[] consumeWithList;
         String[] storiesList;
@@ -117,10 +112,94 @@ public class Item {
             definice = info.get(keys[i]);
             consumeWithList = consumeWith.get(keys[i]);
             storiesList = stories.get(keys[i]);
-            Item templ = new Item(keys[i], "drinks", definice, consumeWithList, storiesList );
+            pictureName = pictures.get(keys[i]);
+            try {
+                Drink templ = new Drink(keys[i], "drinks", definice, consumeWithList, storiesList, pictureName);
+            }catch (Exception e) {}
+        }
+    }
+
+    static void createFoodDB(Activity activity) throws UnsupportedEncodingException {
+        LinkedList<String> complexFoodList = new LinkedList<String>();
+
+        HashMap<String, String[]> consumeWith = getConsumeWith(activity);
+        Set keysSet = consumeWith.keySet();
+        String[] keys = (String[])keysSet.toArray(new String[keysSet.size()]);
+        String[] consumeWithList;
+
+
+        for (int i=0; i<keys.length; i++) {
+            consumeWithList = consumeWith.get(keys[i]);
+            for(int j=0; j<consumeWithList.length; j++) {
+                complexFoodList.add(consumeWithList[j]);
+            }
         }
 
-        serializace(activity);
+        deleteDubleValue(complexFoodList);
+        for (int i=0; i<complexFoodList.size(); i++) {
+            Food templ = new Food(complexFoodList.get(i));
+        }
+
+    }
+
+    static void deleteDubleValue(LinkedList<String> input) {
+        String first, second;
+        for(int i=0 ; i<input.size()-1; i++) {
+            first = input.get(i);
+            for(int j=1; j<input.size(); j++) {
+                second = input.get(j);
+                if(first.equals(second)) {
+                    input.remove(j);
+                    j--;
+                }
+            }
+        }
+    }
+
+    static HashMap<String, String> getPictures(Activity activity) throws UnsupportedEncodingException {
+        String input = null;
+        Resources r = activity.getResources();
+        InputStream is = r.openRawResource(R.raw.pictures);
+        BufferedReader imBR = new BufferedReader(new InputStreamReader(is,"UTF-16LE"));
+        try {
+            input = convertStreamToString(imBR);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            is.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        String [] stringArray = input.split("\n");
+        String [] nameAndPicture = new String[10];
+        HashMap<String, String> nameAndPictures = new HashMap<>();
+        String name = null;
+//        LinkedList<String> food = new LinkedList<>();
+        boolean justExit = false;
+        String pictureName = null;
+        for(int i=0; i<stringArray.length; i++) {
+
+            if(stringArray[i].contains("*")) {
+                stringArray[i] = stringArray[i].replace("null","");
+                nameAndPicture = stringArray[i].split("\\*");
+                name = nameAndPicture[1];
+//                food = new LinkedList<>();
+                justExit = true;
+            }
+            if((!justExit)&&(!stringArray[i].contains("null"))){
+                pictureName = stringArray[i];
+            }
+            else {
+                justExit = false;
+            }
+
+            nameAndPictures.put(name, pictureName);
+        }
+
+
+        return nameAndPictures;
     }
 
     static HashMap<String, String>  getInfo(Activity activity) throws UnsupportedEncodingException {
@@ -139,11 +218,12 @@ public class Item {
             e.printStackTrace();
         }
 
+
         String [] stringArray = input.split("\n");
         String [] nameAndInfo = new String[10];
         HashMap<String, String> info = new HashMap<>();
         String name, defenice;
-        for(int i=0; i<stringArray.length; i++) {
+        for(int i=0; i<stringArray.length-1; i++) {
             if(stringArray[i].contains("*")) {
                 stringArray[i] = stringArray[i].replace("null","");
                 nameAndInfo = stringArray[i].split("\\*");
@@ -185,7 +265,7 @@ public class Item {
                 food = new LinkedList<>();
                 justExit = true;
             }
-            if((!justExit)&&(stringArray[i]!=null)){
+            if((!justExit)&&(!stringArray[i].contains("null"))){
                 food.add(stringArray[i]);
             }
             else {
@@ -195,6 +275,8 @@ public class Item {
             foodString = toStringArray(food);
             consumeWith.put(name, foodString);
         }
+
+
         return consumeWith;
     }
 
@@ -216,31 +298,59 @@ public class Item {
 
         String [] stringArray = input.split("\n");
         String [] nameAndStories = new String[10];;
-        HashMap<String, String[]> stories = new HashMap<>();
+        HashMap<String, String[]> namesAndStories = new HashMap<>();
         String name = null;
-        LinkedList<String> food = new LinkedList<>();;
+        LinkedList<String> stories = new LinkedList<>();;
         boolean justExit = false;
+        String story = null;
         for(int i=0; i<stringArray.length; i++) {
             if(stringArray[i].contains("*")) {
                 stringArray[i] = stringArray[i].replace("null","");
                 nameAndStories = stringArray[i].split("\\*");
                 name = nameAndStories[1];
-                food = new LinkedList<>();
+                stories = new LinkedList<>();
                 justExit = true;
             }
-            if((!justExit)&&(stringArray[i]!=null)){
-                food.add(stringArray[i]);
+            if((!justExit)&&(!stringArray[i].contains("null"))){
+                try {
+                    if(!isNumber(stringArray[i].charAt(0))) {
+                        String firstPartStory = stories.getLast();
+                        String secondPartStory = stringArray[i];
+                        String comleateStory = firstPartStory+secondPartStory;
+                        stories.set(stories.size()-1, comleateStory);
+                    }
+                    stories.add(stringArray[i]);
+                }catch (Exception e) { }
             }
             else {
                 justExit = false;
             }
-            String [] foodString = new String[food.size()];
-            foodString = toStringArray(food);
-            stories.put(name, foodString);
+            stories = joinCloseStories(stories);
+            String [] foodString = new String[stories.size()];
+            foodString = toStringArray(stories);
+            namesAndStories.put(name, foodString);
         }
-        return stories;
+        return namesAndStories;
     }
 
+    static boolean isNumber(char input) {
+        boolean output = false;
+        output = Character.isDigit(input);
+        return output;
+    }
+
+    static LinkedList<String> joinCloseStories(LinkedList<String> input) {
+        for(int i=0; i<input.size(); i++) {
+            if(!isNumber(input.get(i).charAt(0))) {
+                String firstPart = input.get(i-1);
+                String secondPart = input.get(i);
+                if(!firstPart.contains(secondPart))
+                    input.set(i - 1, firstPart + secondPart);
+                input.remove(i);
+            }
+        }
+        return input;
+    }
 
     static String convertStreamToString(BufferedReader inBR) throws IOException {
 
@@ -277,7 +387,10 @@ public class Item {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Food = output;
+
+        Food.ListItems = output;
+
+        output = new LinkedList<>();
         try {
             String path = activity.getFilesDir()+"/DbDrinks.out";
             FileInputStream fileIn = new FileInputStream(path);
@@ -292,7 +405,8 @@ public class Item {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Drinks = output;
+
+        Drink.ListItems = output;
     }
 
     public static void serializace(Activity activity) {
@@ -300,7 +414,7 @@ public class Item {
             String path = activity.getFilesDir()+"/DbDrinks.out";
             FileOutputStream fileOut = new FileOutputStream(path);
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
-            out.writeObject(Item.Drinks);
+            out.writeObject(Drink.ListItems);
             out.close();
             fileOut.close();
 
@@ -309,11 +423,12 @@ public class Item {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
         try {
             String path = activity.getFilesDir()+"/DbFood.out";
             FileOutputStream fileOut = new FileOutputStream(path);
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
-            out.writeObject(Item.Food);
+            out.writeObject(Food.ListItems);
             out.close();
             fileOut.close();
 

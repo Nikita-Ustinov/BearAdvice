@@ -18,10 +18,13 @@ public class MyBasicAdapter extends BaseAdapter{
 
     Context context;
     List<Item> rowItems;
+    boolean isDrinks;
 
-    public MyBasicAdapter (Context context, List<Item> items) {
+
+    public MyBasicAdapter (Context context, List<Item> items, boolean isDrinks) {
         this.context = context;
         this.rowItems = items;
+        this.isDrinks = isDrinks;
     }
 
     //класс для показа одной строчки
@@ -36,6 +39,7 @@ public class MyBasicAdapter extends BaseAdapter{
         LayoutInflater lInflater = (LayoutInflater)context.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
         if(convertView == null) {
             convertView = lInflater.inflate(R.layout.item_row, null);
+            hld = new ViewHolder();
             hld.textView = (TextView) convertView.findViewById(R.id.item_text);
             convertView.setTag(hld);
         }
@@ -43,8 +47,16 @@ public class MyBasicAdapter extends BaseAdapter{
             hld = (ViewHolder) convertView.getTag();
         }
 
-        Item item = (Item) getItem(position);
-        hld.textView.setText(item.getName());
+        if(isDrinks) {
+            Drink item = (Drink) getItem(position);
+            hld.textView.setText(item.getName());
+        }
+        else {
+            Food item = (Food) getItem(position);
+            hld.textView.setText(item.Name);
+        }
+
+
 
         return convertView;
     }
