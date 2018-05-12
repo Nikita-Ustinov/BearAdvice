@@ -11,6 +11,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+import static nikita.bearadvice.Food.getFoodByGroupPosition;
+
 public class ShowListItemsActivity extends AppCompatActivity  implements AdapterView.OnItemClickListener{
 
 //    public static final String[] drinksNames = Drink.getDrinksNames();
@@ -31,17 +33,27 @@ public class ShowListItemsActivity extends AppCompatActivity  implements Adapter
 
         listRows = new ArrayList<Item>();
         Intent intent = getIntent();
-        isDrinks = intent.getBooleanExtra("isDrinks", true);
-        if(isDrinks) {
-            listRows = Drink.ListItems;
+        int position = intent.getIntExtra("position", -1);
+        listView = (ListView) findViewById(R.id.listItemsView);
+        if (position==-1) {
+            isDrinks = intent.getBooleanExtra("isDrinks", true);
+            if(isDrinks) {
+                listRows = Drink.ListItems;
+            }
+            else {
+                listRows = Food.ListItems;
+            }
+//            listView = (ListView) findViewById(R.id.listItemsView);
+            MyBasicAdapter adapter = new MyBasicAdapter(this, listRows, isDrinks);
+            listView.setAdapter(adapter);
+            listView.setOnItemClickListener(this);
         }
         else {
-            listRows = Food.ListItems;
+            LinkedList<Item> food = getFoodByGroupPosition(position);
+            MyBasicAdapter adapter = new MyBasicAdapter(this, food, false);
+            listView.setAdapter(adapter);
+            listView.setOnItemClickListener(this);
         }
-        listView = (ListView) findViewById(R.id.listItemsView);
-        MyBasicAdapter adapter = new MyBasicAdapter(this, listRows, isDrinks);
-        listView.setAdapter(adapter);
-        listView.setOnItemClickListener(this);
     }
 
     @Override

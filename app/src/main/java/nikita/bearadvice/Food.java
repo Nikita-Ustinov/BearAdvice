@@ -4,11 +4,10 @@ import java.util.LinkedList;
 
 public class Food extends Item {
 
-    String group;
 
-    public String Group;
+
     public static LinkedList<Item> ListItems = new LinkedList<>();
-
+    public static LinkedList<String> GroupList = new LinkedList<>();
 
 
     public Food(String name, String group) {
@@ -19,6 +18,7 @@ public class Food extends Item {
 
     public Food(String name) {
         Name = name;
+        Group = "";
         ListItems.add(this);
         ID = Item.MaxID++;
     }
@@ -42,6 +42,29 @@ public class Food extends Item {
         String[] output = new String[ListItems.size()];
         for(int i = 0; i< ListItems.size(); i++) {
             output[i] = ListItems.get(i).Name;
+        }
+        return output;
+    }
+
+    public static void assignGroupName(String groupName, String foodName) {
+        if(!GroupList.contains(groupName)) {
+            GroupList.add(groupName);
+        }
+        for(int i=0; i< ListItems.size(); i++) {
+            if(ListItems.get(i).Name.equals(foodName)) {
+                ListItems.get(i).Group = groupName;
+                break;
+            }
+        }
+    }
+
+    public static LinkedList<Item> getFoodByGroupPosition(int position) {
+        String groupName = GroupList.get(position);
+        LinkedList<Item> output = new LinkedList<>();
+        for(int i=0; i<ListItems.size(); i++) {
+            if (ListItems.get(i).Group.equals(groupName)) {
+                output.add(ListItems.get(i));
+            }
         }
         return output;
     }

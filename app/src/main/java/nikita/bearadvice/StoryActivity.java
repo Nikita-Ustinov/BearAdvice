@@ -21,8 +21,8 @@ public class StoryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story);
-        twStory = findViewById(R.id.textView6);
-        iwPicture = findViewById(R.id.imageView2);
+        twStory = (TextView)findViewById(R.id.textView6);
+        iwPicture = (ImageView) findViewById(R.id.imageView2);
 
 
         Intent intent = getIntent();
@@ -44,22 +44,28 @@ public class StoryActivity extends AppCompatActivity {
         story = listItem.Stories[storyNumber];
         String way = "R.mipmap."+listItem.Picture;
         String packageName = getPackageName();
-//        int resID = this.getResources().getIdentifier(listItem.Picture, "drawable", packageName);
+        int resID = -1;
+        try {
+            resID = R.drawable.class.getField(listItem.Picture).getInt(getResources());
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        }
 
-//        final String str = listItem.Picture;
-//        int resID = this.getResourceID(str, "drawable", getApplicationContext());
-//        Bitmap bm = BitmapFactory.decodeResource(null, resID);
-//
-//
-//
-////        iwPicture.setImageDrawable
-////                (
-////                        getResources().getDrawable(getResourceID(str, "drawable",
-////                                getApplicationContext()))
-////                );
-//
-//
-//        iwPicture.setImageBitmap(bm);
+        int newID = R.drawable.arak;
+        Bitmap icon = BitmapFactory.decodeResource(this.getResources(),  resID);
+
+
+
+//        iwPicture.setImageDrawable
+//                (
+//                        getResources().getDrawable(getResourceID(str, "drawable",
+//                                getApplicationContext()))
+//                );
+
+
+        iwPicture.setImageBitmap(icon);
         twStory.setText(story);
     }
 

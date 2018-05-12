@@ -31,6 +31,7 @@ public class Item {
     String[] Stories;
     Image Icon;
     String Picture;
+    public String Group;
     int ID;
     static int MaxID;
 
@@ -139,6 +140,8 @@ public class Item {
         for (int i=0; i<complexFoodList.size(); i++) {
             Food templ = new Food(complexFoodList.get(i));
         }
+
+        setFoodGroups(activity);
 
     }
 
@@ -333,6 +336,52 @@ public class Item {
         return namesAndStories;
     }
 
+    static void setFoodGroups(Activity activity) throws UnsupportedEncodingException {
+        String input = null;
+        Resources r = activity.getResources();
+        InputStream is = r.openRawResource(R.raw.food_groups);
+        BufferedReader imBR = new BufferedReader(new InputStreamReader(is,"UTF-16LE"));
+        try {
+            input = convertStreamToString(imBR);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            is.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        String [] stringArray = input.split("\n");
+        String [] nameAndFood = new String[10];
+        HashMap<String, String[]> consumeWith = new HashMap<>();
+        String groupName = null;
+        LinkedList<String> food = new LinkedList<>();;
+        boolean justExit = false;
+        for(int i=0; i<stringArray.length; i++) {
+            if(stringArray[i].contains("*")) {
+                stringArray[i] = stringArray[i].replace("null","");
+                nameAndFood = stringArray[i].split("\\*");
+                groupName = nameAndFood[1];
+//                food = new LinkedList<>();
+                justExit = true;
+            }
+            if((!justExit)&&(!stringArray[i].contains("null"))){
+//                food.add(stringArray[i]);
+                Food.assignGroupName(groupName, stringArray[i]);
+            }
+            else {
+                justExit = false;
+            }
+//            String [] foodString = new String[food.size()];
+//            foodString = toStringArray(food);
+//            consumeWith.put(groupName, foodString);
+        }
+
+
+//        return consumeWith;
+    }
+
     static boolean isNumber(char input) {
         boolean output = false;
         output = Character.isDigit(input);
@@ -390,12 +439,12 @@ public class Item {
 
         Food.ListItems = output;
 
-        output = new LinkedList<>();
+        LinkedList<Item> outputDrink = new LinkedList<>();
         try {
             String path = activity.getFilesDir()+"/DbDrinks.out";
             FileInputStream fileIn = new FileInputStream(path);
             ObjectInputStream in = new ObjectInputStream(fileIn);
-            output = (LinkedList<Item>) in.readObject();
+            outputDrink = (LinkedList<Item>) in.readObject();
             in.close();
             fileIn.close();
         } catch (ClassNotFoundException e) {
@@ -406,7 +455,7 @@ public class Item {
             e.printStackTrace();
         }
 
-        Drink.ListItems = output;
+        Drink.ListItems = outputDrink;
     }
 
     public static void serializace(Activity activity) {

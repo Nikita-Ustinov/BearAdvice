@@ -20,6 +20,8 @@ public class ShowItemsInfo extends AppCompatActivity {
     TextView twConsumeWith;
     TextView twDefenice;
     Button btnDefenice;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +48,8 @@ public class ShowItemsInfo extends AppCompatActivity {
             listItem = Food.getItem(position);
         }
 
+
+        //удаление null из String
         for(int i=0; i<listItem.ConsumeWith.length; i++) {
             if(listItem.ConsumeWith[i].contains("null")) {
                 listItem.ConsumeWith[i].replace("null", "");
@@ -54,6 +58,7 @@ public class ShowItemsInfo extends AppCompatActivity {
             consumeWith += listItem.ConsumeWith[i];
             consumeWith += "\r\n";
         }
+        consumeWith = consumeWith.substring(4);
 
         twConsumeWith.setText(consumeWith);
         twName.setText(listItem.Name);
@@ -76,5 +81,15 @@ public class ShowItemsInfo extends AppCompatActivity {
         btnDefenice.startAnimation(animInvizible);
         twDefenice.setVisibility(View.VISIBLE);
         btnDefenice.setVisibility(View.INVISIBLE);
+    }
+
+
+    public void onDefeniceTextClick(View view) {
+        Animation anim = AnimationUtils.loadAnimation(this, R.anim.scale_back);
+        Animation animInvizible = AnimationUtils.loadAnimation(this, R.anim.invizible_back);
+        twDefenice.startAnimation(anim);
+        btnDefenice.startAnimation(animInvizible);
+        twDefenice.setVisibility(View.INVISIBLE);
+        btnDefenice.setVisibility(View.VISIBLE);
     }
 }

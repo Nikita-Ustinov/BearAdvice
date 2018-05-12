@@ -5,4 +5,9 @@
     <string name="foot">Еда</string>
     <string name="what_is_it_">Что это?</string>
     <string name="Stories_about">Истории...</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="choose_food_group">Выберете вид блюда</string>
 </resources>

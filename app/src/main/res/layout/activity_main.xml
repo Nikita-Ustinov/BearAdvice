@@ -7,6 +7,7 @@
     android:background="@mipmap/background_wood"
     android:backgroundTint="#26FFFFFF"
     android:backgroundTintMode="src_over"
+    android:minHeight="142dp"
     tools:context="nikita.bearadvice.MainActivity"
     tools:targetApi="lollipop">
 
@@ -14,11 +15,9 @@
     <Button
         android:id="@+id/btnFood"
         android:layout_width="185dp"
-        android:layout_height="144dp"
+        android:layout_height="211dp"
         android:layout_marginBottom="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:background="@mipmap/foot_1page"
+        android:background="@android:color/transparent"
         android:backgroundTintMode="src_over"
         android:onClick="onBtnFoodClick"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,23 +25,23 @@
 
     <Button
         android:id="@+id/btnDrinks"
-        android:layout_width="96dp"
-        android:layout_height="148dp"
-        android:layout_marginBottom="224dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_width="185dp"
+        android:layout_height="210dp"
         android:background="@mipmap/drinks"
         android:onClick="onBtnDrinksClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="341dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="212dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginRight="212dp"
         android:layout_marginStart="73dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="100dp"
         android:text="@string/welcome_text"
         android:textAlignment="center"
         android:textColor="@android:color/background_dark"
@@ -57,23 +56,23 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
         android:text="@string/drinks"
         android:textColor="@android:color/background_dark"
         android:textSize="@dimen/textSize"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/btnDrinks"
-        app:layout_constraintEnd_toStartOf="@+id/btnDrinks" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="348dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
         android:text="@string/foot"
         android:textColor="@android:color/background_dark"
-        android:textSize="@dimen/textSize"
+        android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/btnFood"
-        app:layout_constraintTop_toTopOf="@+id/btnFood" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="343dp" />
 </android.support.constraint.ConstraintLayout>
