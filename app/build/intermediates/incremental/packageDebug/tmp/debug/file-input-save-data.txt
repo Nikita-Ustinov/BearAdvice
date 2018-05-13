@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Sat May 12 11:53:26 CEST 2018
+#Sat May 12 18:35:23 CEST 2018
 0.baseType=DIRECTORY
-0.base=/Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/build/intermediates/transforms/dexMerger/debug/85
+0.base=/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/build/intermediates/transforms/dexMerger/debug/17
 0.path=classes.dex
 0.set=DEX
 count=1

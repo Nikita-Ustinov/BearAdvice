@@ -17,7 +17,7 @@
         android:layout_width="185dp"
         android:layout_height="211dp"
         android:layout_marginBottom="16dp"
-        android:background="@android:color/transparent"
+        android:background="@drawable/foot"
         android:backgroundTintMode="src_over"
         android:onClick="onBtnFoodClick"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,16 +27,19 @@
         android:id="@+id/btnDrinks"
         android:layout_width="185dp"
         android:layout_height="210dp"
+        android:layout_marginBottom="16dp"
         android:background="@mipmap/drinks"
         android:onClick="onBtnDrinksClick"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="341dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:background="#eae6e6"
+        android:backgroundTint="#40FFFFFF"
         android:layout_marginEnd="212dp"
         android:layout_marginLeft="73dp"
         android:layout_marginRight="212dp"
@@ -67,12 +70,15 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="8dp"
         android:text="@string/foot"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="343dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnFood"
+        tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>

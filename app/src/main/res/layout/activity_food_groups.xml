@@ -28,14 +28,25 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="233dp"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="66dp"
         android:layout_marginBottom="12dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/papirus"
+        android:backgroundTint="#40FFFFFF"
+        android:padding="20dp"
         android:text="@string/choose_food_group"
         android:textColor="@android:color/background_dark"
         android:textSize="20sp"
-        android:textStyle="bold"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/listItemsView"
-        app:layout_constraintStart_toStartOf="@+id/listItemsView" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/listItemsView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
 
 </android.support.constraint.ConstraintLayout>

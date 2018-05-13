@@ -12,6 +12,8 @@ int anim invizible 0x7f01000a
 int anim invizible_back 0x7f01000b
 int anim scale 0x7f01000c
 int anim scale_back 0x7f01000d
+int anim scale_button 0x7f01000e
+int anim scale_button_back 0x7f01000f
 int attr actionBarDivider 0x7f020000
 int attr actionBarItemBackground 0x7f020001
 int attr actionBarPopupTheme 0x7f020002
@@ -792,7 +794,10 @@ int mipmap foot_1page 0x7f0a0009
 int mipmap ic_launcher 0x7f0a000a
 int mipmap ic_launcher_round 0x7f0a000b
 int mipmap info 0x7f0a000c
-int mipmap settings 0x7f0a000d
+int mipmap info_01 0x7f0a000d
+int mipmap papirus 0x7f0a000e
+int mipmap row_image 0x7f0a000f
+int mipmap settings 0x7f0a0010
 int raw alcohol_food 0x7f0b0000
 int raw alcohol_info 0x7f0b0001
 int raw food_groups 0x7f0b0002

@@ -23,6 +23,8 @@ public final class R {
     public static final int invizible_back=0x7f01000b;
     public static final int scale=0x7f01000c;
     public static final int scale_back=0x7f01000d;
+    public static final int scale_button=0x7f01000e;
+    public static final int scale_button_back=0x7f01000f;
   }
   public static final class attr {
     /**
@@ -2683,7 +2685,10 @@ public final class R {
     public static final int ic_launcher=0x7f0a000a;
     public static final int ic_launcher_round=0x7f0a000b;
     public static final int info=0x7f0a000c;
-    public static final int settings=0x7f0a000d;
+    public static final int info_01=0x7f0a000d;
+    public static final int papirus=0x7f0a000e;
+    public static final int row_image=0x7f0a000f;
+    public static final int settings=0x7f0a0010;
   }
   public static final class raw {
     public static final int alcohol_food=0x7f0b0000;

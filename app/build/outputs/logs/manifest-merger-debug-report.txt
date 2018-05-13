@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/c49d03d61e04598f8cc7562183380feb/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f1636d5531768dcb52b97ea240802413/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-v4:25.4.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/92cd8738a44e52d1a21184ed3da4fb7e/AndroidManifest.xml:17:1-31:12
@@ -14,27 +14,27 @@ MERGED from [com.android.support:support-media-compat:25.4.0] /Users/nikitaustin
 MERGED from [com.android.support:support-core-utils:25.4.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/8db75d1286df6a76fafa4dc34c12fad9/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.4.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/28975f0f364c4abc709fd5c1b6c7feb3/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.4.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/eaa1ae3986fea8c44a0746c53749732f/AndroidManifest.xml:17:1-31:12
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:4:5-32
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:6:5-24:19
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/c49d03d61e04598f8cc7562183380feb/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/c49d03d61e04598f8cc7562183380feb/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f1636d5531768dcb52b97ea240802413/AndroidManifest.xml:9:5-20
@@ -56,51 +56,51 @@ MERGED from [com.android.support:support-core-ui:25.4.0] /Users/nikitaustinov/.g
 MERGED from [com.android.support:support-compat:25.4.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/eaa1ae3986fea8c44a0746c53749732f/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:25.4.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/eaa1ae3986fea8c44a0746c53749732f/AndroidManifest.xml:25:5-29:19
 	android:supportsRtl
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:12:9-59
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:12:9-59
 activity#nikita.bearadvice.ShowListItemsActivity
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:13:9-59
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:13:9-59
 	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:13:19-56
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:13:19-56
 activity#nikita.bearadvice.MainActivity
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:14:9-20:20
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:14:19-47
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:14:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:18:27-74
 activity#nikita.bearadvice.ShowItemsInfo
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:21:9-51
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:21:9-51
 	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:21:19-48
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:21:19-48
 activity#nikita.bearadvice.StoryActivity
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:22:9-51
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:22:9-51
 	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:22:19-48
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:22:19-48
 activity#nikita.bearadvice.foodGroupsActivity
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:23:9-65
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:23:9-65
 	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:23:19-53
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:23:19-53
 uses-sdk
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/c49d03d61e04598f8cc7562183380feb/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/c49d03d61e04598f8cc7562183380feb/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f1636d5531768dcb52b97ea240802413/AndroidManifest.xml:5:5-7:41
@@ -121,18 +121,18 @@ MERGED from [com.android.support:support-core-ui:25.4.0] /Users/nikitaustinov/.g
 MERGED from [com.android.support:support-core-ui:25.4.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/28975f0f364c4abc709fd5c1b6c7feb3/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.4.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/eaa1ae3986fea8c44a0746c53749732f/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.4.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/eaa1ae3986fea8c44a0746c53749732f/AndroidManifest.xml:21:5-23:58
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/c49d03d61e04598f8cc7562183380feb/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:support-v4:25.4.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/92cd8738a44e52d1a21184ed3da4fb7e/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:25.4.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/55af3dfa8c25539c36aafe5f7518d900/AndroidManifest.xml:26:9-28:38

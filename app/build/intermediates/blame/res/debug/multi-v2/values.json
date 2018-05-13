@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/c49d03d61e04598f8cc7562183380feb/res/values/values.xml",
@@ -36,39 +36,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/res/values/dimens.xml",
-                    "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
-                    },
-                    "to": {
-                        "startLines": "397",
-                        "startColumns": "4",
-                        "startOffsets": "40917",
-                        "endColumns": "39",
-                        "endOffsets": "40952"
-                    }
-                },
-                {
-                    "source": "/Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "-1,-1,11,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,4,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,534,-1,-1,-1,-1,-1,-1,-1",
-                        "endColumns": "-1,-1,64,-1,-1,-1,-1,-1,-1,-1",
-                        "endOffsets": "-1,-1,594,-1,-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "413,445,446,447,448,449,450,453,454,455",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "41774,44065,44113,44178,44221,44275,44332,44493,44566,44658",
-                        "endColumns": "52,47,64,42,53,56,36,72,91,48",
-                        "endOffsets": "41822,44108,44173,44216,44270,44327,44364,44561,44653,44702"
-                    }
-                },
-                {
-                    "source": "/Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/res/values/styles.xml",
+                    "source": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "-1,-1,-1",
                         "startColumns": "-1,-1,-1",
@@ -84,11 +52,28 @@
                     }
                 },
                 {
-                    "source": "/Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/res/values/colors.xml",
+                    "source": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "413,445,446,447,448,449,450,453,454,455",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "41774,44065,44113,44178,44221,44275,44332,44493,44566,44658",
+                        "endColumns": "52,47,64,42,53,56,36,72,91,48",
+                        "endOffsets": "41822,44108,44173,44216,44270,44327,44364,44561,44653,44702"
+                    }
+                },
+                {
+                    "source": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "-1,-1,2,-1",
+                        "startColumns": "-1,-1,4,-1",
+                        "startOffsets": "-1,-1,57,-1",
+                        "endColumns": "-1,-1,46,-1",
+                        "endOffsets": "-1,-1,99,-1"
                     },
                     "to": {
                         "startLines": "110,119,120,121",
@@ -96,6 +81,21 @@
                         "startOffsets": "5548,6239,6285,6332",
                         "endColumns": "49,45,46,50",
                         "endOffsets": "5593,6280,6327,6378"
+                    }
+                },
+                {
+                    "source": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "397",
+                        "startColumns": "4",
+                        "startOffsets": "40917",
+                        "endColumns": "39",
+                        "endOffsets": "40952"
                     }
                 }
             ]

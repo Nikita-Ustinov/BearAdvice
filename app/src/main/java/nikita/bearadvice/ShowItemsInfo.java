@@ -76,9 +76,9 @@ public class ShowItemsInfo extends AppCompatActivity {
         twDefenice.setText(listItem.Definice);
 
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.scale);
-        Animation animInvizible = AnimationUtils.loadAnimation(this, R.anim.invizible);
+        Animation animBtn = AnimationUtils.loadAnimation(this, R.anim.scale_button);
         twDefenice.startAnimation(anim);
-        btnDefenice.startAnimation(animInvizible);
+        btnDefenice.startAnimation(animBtn);
         twDefenice.setVisibility(View.VISIBLE);
         btnDefenice.setVisibility(View.INVISIBLE);
     }
@@ -86,9 +86,9 @@ public class ShowItemsInfo extends AppCompatActivity {
 
     public void onDefeniceTextClick(View view) {
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.scale_back);
-        Animation animInvizible = AnimationUtils.loadAnimation(this, R.anim.invizible_back);
+        Animation animBtn = AnimationUtils.loadAnimation(this, R.anim.scale_button_back);
         twDefenice.startAnimation(anim);
-        btnDefenice.startAnimation(animInvizible);
+        btnDefenice.startAnimation(animBtn);
         twDefenice.setVisibility(View.INVISIBLE);
         btnDefenice.setVisibility(View.VISIBLE);
     }

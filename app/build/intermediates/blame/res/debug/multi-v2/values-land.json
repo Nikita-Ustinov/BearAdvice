@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/c49d03d61e04598f8cc7562183380feb/res/values-land/values-land.xml",
