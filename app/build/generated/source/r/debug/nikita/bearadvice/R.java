@@ -2677,18 +2677,21 @@ public final class R {
     public static final int arak=0x7f0a0002;
     public static final int armagnac=0x7f0a0003;
     public static final int background_wood=0x7f0a0004;
-    public static final int chehov_vodka=0x7f0a0005;
-    public static final int drinks=0x7f0a0006;
-    public static final int eiserin=0x7f0a0007;
-    public static final int foot=0x7f0a0008;
-    public static final int foot_1page=0x7f0a0009;
-    public static final int ic_launcher=0x7f0a000a;
-    public static final int ic_launcher_round=0x7f0a000b;
-    public static final int info=0x7f0a000c;
-    public static final int info_01=0x7f0a000d;
-    public static final int papirus=0x7f0a000e;
-    public static final int row_image=0x7f0a000f;
-    public static final int settings=0x7f0a0010;
+    public static final int backof=0x7f0a0005;
+    public static final int bezramok=0x7f0a0006;
+    public static final int chehov_vodka=0x7f0a0007;
+    public static final int drinks=0x7f0a0008;
+    public static final int eiserin=0x7f0a0009;
+    public static final int foot=0x7f0a000a;
+    public static final int foot_1page=0x7f0a000b;
+    public static final int ic_launcher=0x7f0a000c;
+    public static final int ic_launcher_round=0x7f0a000d;
+    public static final int info=0x7f0a000e;
+    public static final int info_01=0x7f0a000f;
+    public static final int papirus=0x7f0a0010;
+    public static final int row_image=0x7f0a0011;
+    public static final int settings=0x7f0a0012;
+    public static final int ssettings=0x7f0a0013;
   }
   public static final class raw {
     public static final int alcohol_food=0x7f0b0000;

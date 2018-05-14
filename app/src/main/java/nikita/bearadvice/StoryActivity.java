@@ -40,7 +40,7 @@ public class StoryActivity extends AppCompatActivity {
         }
         String story;
         Random rand = new Random();
-        int storyNumber = rand.nextInt(listItem.Stories.length - 0 + 1);
+        int storyNumber = rand.nextInt(listItem.Stories.length);
         story = listItem.Stories[storyNumber];
         String way = "R.mipmap."+listItem.Picture;
         String packageName = getPackageName();

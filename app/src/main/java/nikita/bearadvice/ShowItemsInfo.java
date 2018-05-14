@@ -49,13 +49,13 @@ public class ShowItemsInfo extends AppCompatActivity {
         }
 
 
-        //удаление null из String
+        //удаление null из String и добавление нумерации
         for(int i=0; i<listItem.ConsumeWith.length; i++) {
             if(listItem.ConsumeWith[i].contains("null")) {
                 listItem.ConsumeWith[i].replace("null", "");
             }
 
-            consumeWith += listItem.ConsumeWith[i];
+            consumeWith += (i+1)+". "+listItem.ConsumeWith[i];
             consumeWith += "\r\n";
         }
         consumeWith = consumeWith.substring(4);

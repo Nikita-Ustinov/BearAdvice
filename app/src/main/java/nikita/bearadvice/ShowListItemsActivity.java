@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
@@ -23,6 +24,7 @@ public class ShowListItemsActivity extends AppCompatActivity  implements Adapter
 
     ListView listView;
     List<Item> listRows;
+    LinkedList<Item> FoodList;
 
     boolean isDrinks;
 
@@ -50,6 +52,7 @@ public class ShowListItemsActivity extends AppCompatActivity  implements Adapter
         }
         else {
             LinkedList<Item> food = getFoodByGroupPosition(position);
+            FoodList = food;
             MyBasicAdapter adapter = new MyBasicAdapter(this, food, false);
             listView.setAdapter(adapter);
             listView.setOnItemClickListener(this);
@@ -75,7 +78,8 @@ public class ShowListItemsActivity extends AppCompatActivity  implements Adapter
             startActivity(intent);
         }
         else {
-            String foodName = Food.getFoodName(position);
+//            String foodName = Food.getFoodName(position);
+            String foodName = FoodList.get(position).Name;
             LinkedList<Item> drinksToFood = Drink.getListDrinksToFood(foodName);
             isDrinks = true;
             drinksToFoodNew = drinksToFood;

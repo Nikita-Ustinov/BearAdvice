@@ -136,7 +136,7 @@ public class Item {
             }
         }
 
-        deleteDubleValue(complexFoodList);
+//        deleteDubleValue(complexFoodList);
         for (int i=0; i<complexFoodList.size(); i++) {
             Food templ = new Food(complexFoodList.get(i));
         }

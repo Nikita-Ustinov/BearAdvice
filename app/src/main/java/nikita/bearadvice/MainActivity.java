@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onBtnFoodClick(View view) {
+        buttonEffect(view);
         Intent intent = new Intent(this, foodGroupsActivity.class);
         intent.putExtra("isDrinks", false);
         startActivity(intent);

@@ -232,6 +232,10 @@
         "source": "/Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/c49d03d61e04598f8cc7562183380feb/res/layout-v11/notification_template_big_media_custom.xml"
     },
     {
+        "merged": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/build/intermediates/res/merged/debug/mipmap-hdpi_bezramok.png.flat",
+        "source": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/res/mipmap-hdpi/bezramok.png"
+    },
+    {
         "merged": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/c49d03d61e04598f8cc7562183380feb/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -952,6 +956,10 @@
         "source": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/res/mipmap-hdpi/info_01.png"
     },
     {
+        "merged": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/build/intermediates/res/merged/debug/mipmap-hdpi_ssettings.png.flat",
+        "source": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/res/mipmap-hdpi/ssettings.png"
+    },
+    {
         "merged": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "/Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/c49d03d61e04598f8cc7562183380feb/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
@@ -1282,6 +1290,10 @@
     {
         "merged": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "/Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/c49d03d61e04598f8cc7562183380feb/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/build/intermediates/res/merged/debug/mipmap-hdpi_backof.png.flat",
+        "source": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/res/mipmap-hdpi/backof.png"
     },
     {
         "merged": "/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/build/intermediates/res/merged/debug/drawable_abc_ic_go_search_api_material.xml.flat",
