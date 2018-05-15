@@ -81,8 +81,8 @@
 
         android:background="@mipmap/papirus"
         android:paddingBottom="10dp"
-        android:paddingLeft="41dp"
-        android:paddingRight="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:paddingTop="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,7 +96,7 @@
             android:layout_height="wrap_content"
             android:text="TextView"
             android:textColor="@android:color/background_dark"
-            android:textSize="20sp"
+            android:textSize="17sp"
             android:textStyle="bold|italic"
             tools:layout_editor_absoluteX="39dp"
             tools:layout_editor_absoluteY="157dp" />
