@@ -11,16 +11,13 @@
         android:id="@+id/item_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="10dp"
-        android:background="@mipmap/row_image"
+        android:background="@drawable/btnotherstyle"
         android:padding="10dp"
         android:paddingBottom="5dp"
         android:paddingTop="5dp"
         android:textColor="@android:color/background_dark"
         android:textSize="17sp"
         android:textStyle="bold|italic" />
-
 </RelativeLayout>

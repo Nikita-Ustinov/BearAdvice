@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/background_wood"
-    android:backgroundTint="#26FFFFFF"
     android:backgroundTintMode="src_over"
     android:visibility="visible"
     tools:context=".ShowItemsInfo">
+
 
     <TextView
         android:id="@+id/textView4"
@@ -50,18 +50,17 @@
         app:layout_constraintTop_toTopOf="@+id/textView4" />
 
     <Button
-        android:id="@+id/btnDefenice"
+        android:id="@+id/btnInfo"
         android:layout_width="306dp"
-        android:layout_height="48dp"
+        android:layout_height="56dp"
         android:layout_marginEnd="62dp"
         android:layout_marginLeft="62dp"
         android:layout_marginRight="62dp"
         android:layout_marginStart="62dp"
         android:layout_marginTop="10dp"
-
-        android:background="@android:color/darker_gray"
-        android:onClick="onDefeniceClick"
-        android:text="@string/what_is_it_"
+        android:background="#cea99999"
+        android:onClick="onInfoClick"
+        android:text="@string/interesting_fact_about"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,23 +71,24 @@
         android:id="@+id/scrollView3"
         android:layout_width="306dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="80dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="15dp"
 
+        android:layout_marginTop="15dp"
         android:background="@mipmap/papirus"
         android:paddingBottom="10dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:paddingTop="20dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintBottom_toBottomOf="@+id/laDefenice"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="NotSibling">
 
         <TextView
             android:id="@+id/textView6"
@@ -102,27 +102,10 @@
             tools:layout_editor_absoluteY="157dp" />
     </ScrollView>
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="306dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="39dp"
-        android:layout_marginLeft="39dp"
-        android:layout_marginRight="39dp"
-        android:layout_marginStart="39dp"
-        android:background="@android:color/darker_gray"
-        android:onClick="onDefeniceTextClick"
-        android:padding="10dp"
-        android:text="TextView"
-        android:textStyle="bold"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+
 
     <Button
-        android:id="@+id/btnInfo"
+        android:id="@+id/btnDefenice"
         android:layout_width="83dp"
         android:layout_height="50dp"
         android:layout_marginBottom="8dp"
@@ -130,13 +113,51 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:background="@mipmap/info_01"
-        android:onClick="onInfoClick"
+        android:onClick="onDefeniceClick"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="@+id/textView4"
         app:layout_constraintTop_toTopOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.166" />
+
+    <LinearLayout
+        android:id="@+id/laDefenice"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:onClick="onDefeniceTextClick"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="2dp" >
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginRight="39dp"
+            android:layout_marginStart="39dp"
+            android:background="#df3c3c3c"
+            android:onClick="onDefeniceTextClick"
+            android:padding="10dp"
+            android:text="TextView"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
 
 
 </android.support.constraint.ConstraintLayout>

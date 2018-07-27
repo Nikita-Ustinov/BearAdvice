@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/shaders"/></dataSet><dataSet config="release"><source path="/Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/release/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/shaders"/></dataSet><dataSet config="release"><source path="/Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/release/shaders"/></dataSet></merger>

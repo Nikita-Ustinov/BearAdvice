@@ -20,7 +20,12 @@
         </activity>
         <activity android:name=".ShowItemsInfo" />
         <activity android:name=".StoryActivity" />
-        <activity android:name=".foodGroupsActivity"></activity>
+        <activity android:name=".foodGroupsActivity" />
+        <activity android:name=".chooseDishActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".additionActivity"></activity>
     </application>
 
 </manifest>

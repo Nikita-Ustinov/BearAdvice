@@ -1,166 +1,247 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-25:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6be0c9a7f81750a34fa46d9d1e19353e/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f1636d5531768dcb52b97ea240802413/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6602bf975806f80f320302f6f90cae61/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/53e58c48a864cb8be1c8ec63ecb580f5/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/38d6d83dc858a7f96b8105afeb0a39b8/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b588e9eb09b923dc8ab96bc978a9331b/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49b1484f92d64b62961e1e3ae427d1ea/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e7f1e06d7a03de5394ff0dca5a033db6/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4d7a2213668e3c085ff92e4a6046c32/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3864bbb3931d6e316cb0e8a707bec511/AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9e90a52f6b1774c9b445620d55ae11f8/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/61335f04ec842c4f776660d8f04d1e74/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/714e11926d7c6970d35900b0d3118df0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-ads:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.0.aar/04a70afc854025c05107edae8be0658c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/2b384385d01662e316e27bc6dd7adb75/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.0.aar/ce13fd68334843f6afd6650d6529745e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0f9950ea8832a12f774ef87087863b9b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6fb91f1730f663607290f9f6af370ef3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0d6b15cbcbb4de7a48449b41476deec8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/562d90a201370ffdc29abcc14dbeaa8b/AndroidManifest.xml:17:1-28:12
+MERGED from [io.github.inflationx:calligraphy3:3.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/calligraphy3-3.0.0.aar/2e400a3deb7be10e3ff06b31c6b4b96e/AndroidManifest.xml:2:1-13:12
+MERGED from [io.github.inflationx:viewpump:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/viewpump-1.0.0.aar/e193f7fad086c59a64b1b141b70aaf2e/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/75994c137b628e887a990a22eca406b3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d938986bfb65044324ce0b4bf1ba68d9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c520de511987f18114e41a31292f5309/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5e721d1d05170ca15c611f3b86f8e082/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:customtabs:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/ae1b2c052235cd9d4540aee072dc7a87/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/81dbf4d6a177794bd2aabc32364c07bd/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.0.aar/4765eda34173e2e28af45cffd485a0d9/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/382b02a8604c59f947b15f027b2485eb/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:3:5-32
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-25:12
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:1-25:12
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:5:5-23:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6be0c9a7f81750a34fa46d9d1e19353e/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6be0c9a7f81750a34fa46d9d1e19353e/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f1636d5531768dcb52b97ea240802413/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f1636d5531768dcb52b97ea240802413/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6602bf975806f80f320302f6f90cae61/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6602bf975806f80f320302f6f90cae61/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/53e58c48a864cb8be1c8ec63ecb580f5/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/53e58c48a864cb8be1c8ec63ecb580f5/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/38d6d83dc858a7f96b8105afeb0a39b8/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/38d6d83dc858a7f96b8105afeb0a39b8/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b588e9eb09b923dc8ab96bc978a9331b/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b588e9eb09b923dc8ab96bc978a9331b/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49b1484f92d64b62961e1e3ae427d1ea/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49b1484f92d64b62961e1e3ae427d1ea/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e7f1e06d7a03de5394ff0dca5a033db6/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e7f1e06d7a03de5394ff0dca5a033db6/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4d7a2213668e3c085ff92e4a6046c32/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4d7a2213668e3c085ff92e4a6046c32/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3864bbb3931d6e316cb0e8a707bec511/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3864bbb3931d6e316cb0e8a707bec511/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9e90a52f6b1774c9b445620d55ae11f8/AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9e90a52f6b1774c9b445620d55ae11f8/AndroidManifest.xml:24:5-28:19
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:6:5-28:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/61335f04ec842c4f776660d8f04d1e74/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/61335f04ec842c4f776660d8f04d1e74/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/714e11926d7c6970d35900b0d3118df0/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/714e11926d7c6970d35900b0d3118df0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/2b384385d01662e316e27bc6dd7adb75/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/2b384385d01662e316e27bc6dd7adb75/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.0.aar/ce13fd68334843f6afd6650d6529745e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.0.aar/ce13fd68334843f6afd6650d6529745e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0f9950ea8832a12f774ef87087863b9b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0f9950ea8832a12f774ef87087863b9b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6fb91f1730f663607290f9f6af370ef3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6fb91f1730f663607290f9f6af370ef3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0d6b15cbcbb4de7a48449b41476deec8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0d6b15cbcbb4de7a48449b41476deec8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/562d90a201370ffdc29abcc14dbeaa8b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/562d90a201370ffdc29abcc14dbeaa8b/AndroidManifest.xml:22:5-26:19
+MERGED from [io.github.inflationx:calligraphy3:3.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/calligraphy3-3.0.0.aar/2e400a3deb7be10e3ff06b31c6b4b96e/AndroidManifest.xml:11:5-20
+MERGED from [io.github.inflationx:calligraphy3:3.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/calligraphy3-3.0.0.aar/2e400a3deb7be10e3ff06b31c6b4b96e/AndroidManifest.xml:11:5-20
+MERGED from [io.github.inflationx:viewpump:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/viewpump-1.0.0.aar/e193f7fad086c59a64b1b141b70aaf2e/AndroidManifest.xml:11:5-20
+MERGED from [io.github.inflationx:viewpump:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/viewpump-1.0.0.aar/e193f7fad086c59a64b1b141b70aaf2e/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/75994c137b628e887a990a22eca406b3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/75994c137b628e887a990a22eca406b3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d938986bfb65044324ce0b4bf1ba68d9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d938986bfb65044324ce0b4bf1ba68d9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c520de511987f18114e41a31292f5309/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c520de511987f18114e41a31292f5309/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5e721d1d05170ca15c611f3b86f8e082/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5e721d1d05170ca15c611f3b86f8e082/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:customtabs:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/ae1b2c052235cd9d4540aee072dc7a87/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/ae1b2c052235cd9d4540aee072dc7a87/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/81dbf4d6a177794bd2aabc32364c07bd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/81dbf4d6a177794bd2aabc32364c07bd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.0.aar/4765eda34173e2e28af45cffd485a0d9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.0.aar/4765eda34173e2e28af45cffd485a0d9/AndroidManifest.xml:22:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/382b02a8604c59f947b15f027b2485eb/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/382b02a8604c59f947b15f027b2485eb/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:11:9-40
-activity#nikita.bearadvice.ListActivity
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:12:9-50
-	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:12:9-59
 activity#nikita.bearadvice.ShowListItemsActivity
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:13:9-59
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:13:9-59
 	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:13:19-56
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:13:19-56
 activity#nikita.bearadvice.MainActivity
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:14:9-20:20
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:14:19-47
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:14:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:18:27-74
 activity#nikita.bearadvice.ShowItemsInfo
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:21:9-51
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:21:9-51
 	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:21:19-48
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:21:19-48
 activity#nikita.bearadvice.StoryActivity
-ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:22:9-60
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:22:9-51
 	android:name
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml:22:19-48
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:22:19-48
+activity#nikita.bearadvice.foodGroupsActivity
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:23:9-56
+	android:name
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:23:19-53
+activity#nikita.bearadvice.chooseDishActivity
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:24:9-56
+	android:name
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:24:19-53
+activity#nikita.bearadvice.SettingsActivity
+ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:25:9-27:63
+	android:label
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:27:13-60
+	android:name
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml:26:13-45
 uses-sdk
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6be0c9a7f81750a34fa46d9d1e19353e/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6be0c9a7f81750a34fa46d9d1e19353e/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f1636d5531768dcb52b97ea240802413/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f1636d5531768dcb52b97ea240802413/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6602bf975806f80f320302f6f90cae61/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6602bf975806f80f320302f6f90cae61/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/53e58c48a864cb8be1c8ec63ecb580f5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/53e58c48a864cb8be1c8ec63ecb580f5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/38d6d83dc858a7f96b8105afeb0a39b8/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/38d6d83dc858a7f96b8105afeb0a39b8/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b588e9eb09b923dc8ab96bc978a9331b/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b588e9eb09b923dc8ab96bc978a9331b/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49b1484f92d64b62961e1e3ae427d1ea/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49b1484f92d64b62961e1e3ae427d1ea/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e7f1e06d7a03de5394ff0dca5a033db6/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e7f1e06d7a03de5394ff0dca5a033db6/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4d7a2213668e3c085ff92e4a6046c32/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4d7a2213668e3c085ff92e4a6046c32/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3864bbb3931d6e316cb0e8a707bec511/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3864bbb3931d6e316cb0e8a707bec511/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9e90a52f6b1774c9b445620d55ae11f8/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9e90a52f6b1774c9b445620d55ae11f8/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/61335f04ec842c4f776660d8f04d1e74/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/61335f04ec842c4f776660d8f04d1e74/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/714e11926d7c6970d35900b0d3118df0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/714e11926d7c6970d35900b0d3118df0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-ads:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.0.aar/04a70afc854025c05107edae8be0658c/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.0.aar/04a70afc854025c05107edae8be0658c/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/2b384385d01662e316e27bc6dd7adb75/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/2b384385d01662e316e27bc6dd7adb75/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.0.aar/ce13fd68334843f6afd6650d6529745e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.0.aar/ce13fd68334843f6afd6650d6529745e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0f9950ea8832a12f774ef87087863b9b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0f9950ea8832a12f774ef87087863b9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6fb91f1730f663607290f9f6af370ef3/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6fb91f1730f663607290f9f6af370ef3/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0d6b15cbcbb4de7a48449b41476deec8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0d6b15cbcbb4de7a48449b41476deec8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/562d90a201370ffdc29abcc14dbeaa8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/562d90a201370ffdc29abcc14dbeaa8b/AndroidManifest.xml:20:5-44
+MERGED from [io.github.inflationx:calligraphy3:3.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/calligraphy3-3.0.0.aar/2e400a3deb7be10e3ff06b31c6b4b96e/AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.inflationx:calligraphy3:3.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/calligraphy3-3.0.0.aar/2e400a3deb7be10e3ff06b31c6b4b96e/AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.inflationx:viewpump:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/viewpump-1.0.0.aar/e193f7fad086c59a64b1b141b70aaf2e/AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.inflationx:viewpump:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/viewpump-1.0.0.aar/e193f7fad086c59a64b1b141b70aaf2e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/75994c137b628e887a990a22eca406b3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/75994c137b628e887a990a22eca406b3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d938986bfb65044324ce0b4bf1ba68d9/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d938986bfb65044324ce0b4bf1ba68d9/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c520de511987f18114e41a31292f5309/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c520de511987f18114e41a31292f5309/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5e721d1d05170ca15c611f3b86f8e082/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5e721d1d05170ca15c611f3b86f8e082/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:customtabs:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/ae1b2c052235cd9d4540aee072dc7a87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/ae1b2c052235cd9d4540aee072dc7a87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/81dbf4d6a177794bd2aabc32364c07bd/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/81dbf4d6a177794bd2aabc32364c07bd/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.0.aar/4765eda34173e2e28af45cffd485a0d9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.0.aar/4765eda34173e2e28af45cffd485a0d9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/382b02a8604c59f947b15f027b2485eb/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/382b02a8604c59f947b15f027b2485eb/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6be0c9a7f81750a34fa46d9d1e19353e/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/61335f04ec842c4f776660d8f04d1e74/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/nikitaustinov/Documents/AndroidStudioProjects/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nikitaustinov/Documents/GitHub/BearAdvice/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6be0c9a7f81750a34fa46d9d1e19353e/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6602bf975806f80f320302f6f90cae61/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6602bf975806f80f320302f6f90cae61/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/53e58c48a864cb8be1c8ec63ecb580f5/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/53e58c48a864cb8be1c8ec63ecb580f5/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/38d6d83dc858a7f96b8105afeb0a39b8/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/38d6d83dc858a7f96b8105afeb0a39b8/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b588e9eb09b923dc8ab96bc978a9331b/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b588e9eb09b923dc8ab96bc978a9331b/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49b1484f92d64b62961e1e3ae427d1ea/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49b1484f92d64b62961e1e3ae427d1ea/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e7f1e06d7a03de5394ff0dca5a033db6/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/e7f1e06d7a03de5394ff0dca5a033db6/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4d7a2213668e3c085ff92e4a6046c32/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4d7a2213668e3c085ff92e4a6046c32/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3864bbb3931d6e316cb0e8a707bec511/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3864bbb3931d6e316cb0e8a707bec511/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/61335f04ec842c4f776660d8f04d1e74/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6fb91f1730f663607290f9f6af370ef3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6fb91f1730f663607290f9f6af370ef3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0d6b15cbcbb4de7a48449b41476deec8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0d6b15cbcbb4de7a48449b41476deec8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/562d90a201370ffdc29abcc14dbeaa8b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/562d90a201370ffdc29abcc14dbeaa8b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/75994c137b628e887a990a22eca406b3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/75994c137b628e887a990a22eca406b3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d938986bfb65044324ce0b4bf1ba68d9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/d938986bfb65044324ce0b4bf1ba68d9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c520de511987f18114e41a31292f5309/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c520de511987f18114e41a31292f5309/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5e721d1d05170ca15c611f3b86f8e082/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5e721d1d05170ca15c611f3b86f8e082/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:customtabs:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/ae1b2c052235cd9d4540aee072dc7a87/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:customtabs:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/ae1b2c052235cd9d4540aee072dc7a87/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/81dbf4d6a177794bd2aabc32364c07bd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/81dbf4d6a177794bd2aabc32364c07bd/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6be0c9a7f81750a34fa46d9d1e19353e/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/61335f04ec842c4f776660d8f04d1e74/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6be0c9a7f81750a34fa46d9d1e19353e/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/61335f04ec842c4f776660d8f04d1e74/AndroidManifest.xml:27:13-51
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:24:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.0.aar/81b0a4148c15c14aac5f8bff90478096/AndroidManifest.xml:30:13-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0f9950ea8832a12f774ef87087863b9b/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0f9950ea8832a12f774ef87087863b9b/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/0f9950ea8832a12f774ef87087863b9b/AndroidManifest.xml:24:13-58
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9e90a52f6b1774c9b445620d55ae11f8/AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/382b02a8604c59f947b15f027b2485eb/AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9e90a52f6b1774c9b445620d55ae11f8/AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/382b02a8604c59f947b15f027b2485eb/AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/9e90a52f6b1774c9b445620d55ae11f8/AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/nikitaustinov/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/382b02a8604c59f947b15f027b2485eb/AndroidManifest.xml:26:13-58

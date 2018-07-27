@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/La"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back22"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:onClick="onBackgroundClick"
+    >
+
+
+    <Button
+        android:id="@+id/btnTakeTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/btnstyle"
+        android:onClick="onTakeTimeClick"
+        android:text="@string/takeTime"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnKrepost"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btnstyle"
+        android:onClick="onSearchStrongClick"
+        android:text="@string/drinkStrength"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintTop_toBottomOf="@+id/btnTakeTime"
+        tools:layout_editor_absoluteX="25dp" />
+
+
+    <Button
+        android:id="@+id/btnCountry"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btnstyle"
+        android:text="@string/CountryCreation"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintTop_toBottomOf="@+id/btnKrepost"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btnstyle"
+        android:onClick="onSearchGlobalClock"
+        android:text="@string/search"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintTop_toBottomOf="@+id/btnCountry"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <!--<ConsiderLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/laHiddenSearchButtons"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="182dp"-->
+    <!--android:paddingLeft="20dp"-->
+    <!--android:paddingRight="20dp"-->
+    <!--android:visibility="visible">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btnSearchByDrinks"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:background="@drawable/btnstyle"-->
+    <!--android:onClick="onSearchDrinksClick"-->
+    <!--android:text="@string/searchByDrinks"-->
+    <!--android:textColor="@android:color/background_dark" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btnSearchByFood"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:background="@drawable/btnstyle"-->
+    <!--android:onClick="onSearchFoodClick"-->
+    <!--android:text="@string/searchByFood"-->
+    <!--android:textColor="@android:color/background_dark" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/editText"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:text="@string/wiskyPivo" />-->
+    <!--</ConsiderLayout>-->
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/laHiddenSearchButtons"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSearch">
+
+        <Button
+            android:id="@+id/btnSearchByDrinks"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/btnstyle"
+            android:onClick="onSearchDrinksClick"
+            android:text="@string/searchByDrinks"
+            android:textColor="@android:color/background_dark"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnSearchByFood"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/btnstyle"
+            android:onClick="onSearchFoodClick"
+            android:text="@string/searchByFood"
+            android:textColor="@android:color/background_dark"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSearchByDrinks" />
+
+        <EditText
+            android:id="@+id/etSearchByDrinks"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/black_overlay"
+            android:ems="10"
+            android:hint="@string/wiskyPivo"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etSearchByFood"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/black_overlay"
+            android:ems="10"
+            android:hint="@string/fish"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="@android:color/background_dark"
+
+
+            android:textColorHint="@color/colorPrimaryDark"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etSearchByDrinks" />
+
+        <Button
+            android:id="@+id/btnFindByFood"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:drawable/ic_search_category_default"
+            android:onClick="onFindByFoodClick"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="@+id/etSearchByFood"
+            app:layout_constraintTop_toTopOf="@+id/etSearchByFood" />
+
+        <Button
+            android:id="@+id/btnFindByDrinks"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:drawable/ic_search_category_default"
+            android:onClick="onFindByDrinksClick"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="@+id/etSearchByDrinks"
+            app:layout_constraintTop_toTopOf="@+id/etSearchByDrinks" />
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btn2355"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/btnstyle"
+        android:onClick="onFindStredniStrongDrinksClick"
+        android:text="@string/mezi"
+        android:textColor="@android:color/background_dark"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btnKrepost"
+        app:layout_constraintEnd_toEndOf="@+id/btnKrepost"
+        app:layout_constraintStart_toStartOf="@+id/btnKrepost"
+        app:layout_constraintTop_toTopOf="@+id/btnKrepost"
+        app:layout_constraintVertical_bias="1.0"
+        android:elevation="1dp"
+        />
+
+    <Button
+        android:id="@+id/btn56"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/btnstyle"
+        android:onClick="onFindDostStrongDrinksClick"
+        android:text="@string/vicepr"
+        android:textColor="@android:color/background_dark"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btnKrepost"
+        app:layout_constraintStart_toEndOf="@+id/btn2355"
+        app:layout_constraintTop_toTopOf="@+id/btnKrepost"
+        app:layout_constraintVertical_bias="1.0"
+        />
+
+    <Button
+        android:id="@+id/btn22"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/btnstyle"
+        android:onClick="onFindMeneStrongDrinksClick"
+        android:text="@string/twentytwo"
+        android:textColor="@android:color/background_dark"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btnKrepost"
+        app:layout_constraintEnd_toStartOf="@+id/btn2355"
+        app:layout_constraintTop_toTopOf="@+id/btnKrepost"
+        />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
